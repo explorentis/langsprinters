@@ -1,0 +1,6 @@
+#languages structures:
+bash="/bin/bash !SOURCE_FILE!" #bash interpreter
+python = "/usr/bin/python !SOURCE_FILE!" # awrar
+ python="/usr/bin/python !SOURCE_FILE!"
+c="gcc -x c -lm -Wall -o !EXEC_FILE! !SOURCE_FILE!"
+cpp="c++ -Wall -o !EXEC_FILE! !SOURCE_FILE!"
