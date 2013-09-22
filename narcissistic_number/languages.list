@@ -1,6 +1,10 @@
 #languages structures:
+# имя_папки="путь к запуску или строка компиляции", в строке компиляции используются:
+!SOURCE_FILE! - заменяется на имя исходника
+!EXEC_FILE! - имя собираемого бинарника (для компилируемых языков)
 bash="/bin/bash !SOURCE_FILE!" #bash interpreter
-python = "/usr/bin/python !SOURCE_FILE!" # awrar
+python = "/usr/bin/python !SOURCE_FILE!" # i'm comment
+и я коммент
  python="/usr/bin/python !SOURCE_FILE!"
-c="gcc -x c -lm -Wall -o !EXEC_FILE! !SOURCE_FILE!"
+c="cc -lm -Wall -o !EXEC_FILE! !SOURCE_FILE!"
 cpp="c++ -Wall -o !EXEC_FILE! !SOURCE_FILE!"
