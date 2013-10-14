@@ -6,5 +6,6 @@ bash="/bin/bash !SOURCE_FILE!" #bash interpreter
 python = "/usr/bin/python !SOURCE_FILE!" # i'm comment
 и я коммент
  python="/usr/bin/python !SOURCE_FILE!"
+php="/usr/bin/php !SOURCE_FILE!" # php interpreter
 c="cc -lm -Wall -o !EXEC_FILE! !SOURCE_FILE!"
 cpp="c++ -Wall -o !EXEC_FILE! !SOURCE_FILE!"
